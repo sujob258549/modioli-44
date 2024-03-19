@@ -1,14 +1,24 @@
 
 import './App.css'
+import CreatsNavber from './Component/Navder/CreatsNavber'
+// import Navber from './Component/Navder/Navber'
 
 function App() {
- 
+
+  
 
   return (
     <>
+      {/* header */}
       
-      <h1 className='text-8xl text-center'>Vite + React</h1>
+        <section className='bg-sky-200 mt-1'>
+         
+          <div className='container mx-auto py-5  max-w-[90%] '>
+          <CreatsNavber></CreatsNavber>
+          {/* <Navber></Navber> */}
 
+          </div>
+        </section>
     </>
   )
 }
