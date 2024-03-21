@@ -17,11 +17,11 @@ const CreatsNavber = () => {
         <div >
             <div className="">
 
-                <div onClick={() => setOpen(!open)} className="block md:hidden">
+                <div  className="block md:hidden">
                     {
                         open === true ?
-                            <FiAlignJustify className="text-2xl"></FiAlignJustify> :
-                            <IoMdCloseCircleOutline className="text-2xl"></IoMdCloseCircleOutline>
+                            <FiAlignJustify onClick={() => setOpen(!open)} className="text-2xl"></FiAlignJustify> :
+                            <IoMdCloseCircleOutline onClick={() => setOpen(!open)} className="text-2xl"></IoMdCloseCircleOutline>
                     }
                 </div>
                 <ul className={`md:flex md:gap-5 md:static md:bg-inherit  bg-slate-300 px-8 py-3 mt-1 rounded-xl md:py-5 pl-5 duration-1000 absolute ${open ? '-top-96' : 'top-16'}`}>
