@@ -3,6 +3,7 @@ import './App.css'
 import CreatsNavber from './Component/Navder/CreatsNavber'
 import GrafChart from './Component/Rechart/GrafChart'
 import Rechart from './Component/Rechart/Rechart'
+import TreeChart from './Component/Rechart/TreeChart'
 // import Navber from './Component/Navder/Navber'
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <hr />
           <GrafChart></GrafChart>
           <hr />
+          <TreeChart></TreeChart>
         </div>
       </main>
     </>
